@@ -4,7 +4,7 @@
     :class="
       isBrand ? 'border-brand-primary text-brand-primary' : 'border-brand-white text-brand-white'
     "
-    class="inline-block py-2 font-serif border px-14"
+    class="inline-block py-2 font-serif border px-14 hover:underline hover:decoration-wavy"
   >
     <slot>Book now</slot>
   </a>
