@@ -2,7 +2,7 @@
   <header
     class="flex flex-col items-center pt-8 pb-4"
     style="
-      background-image: url(/src/assets/images/chakaHands.png);
+      background-image: url(/chakaHands.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -10,7 +10,7 @@
   >
     <img
       class="sr-only"
-      src="../assets/images/chakaHands.png"
+      src="/chakaHands.png"
       alt="A person with dreadlocks and a masculine, sweatered chest extends their arms; two large, calloused brown hands comfortingly welcome the viewer."
     />
 
