@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Ortica Linear2;
+    font-weight: 300;
+    src: url(./fonts/OrticaLinear-Light.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: Ortica Linear1;
+    font-weight: 300;
+    src: url(./fonts/OrticaLinear-Light.woff) format("woff");
+  }
+}
+
+html {
+  @apply bg-brand-white;
+  @apply text-brand-primary;
+}
+
+.theme--brand {
+  @apply bg-brand-primary;
+  @apply text-brand-white;
+}
+
+.prose p {
+  @apply max-w-prose;
+}
+
+.prose p:not(:last-of-type) {
+  @apply mb-4;
+}
