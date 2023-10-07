@@ -19,7 +19,7 @@ defineProps({
 <style lang="css" scoped>
 h2 {
   @apply font-serif;
-  @apply text-4xl;
+  @apply text-4xl lg:text-5xl;
 }
 
 h3 {

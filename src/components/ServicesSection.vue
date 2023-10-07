@@ -1,9 +1,9 @@
 <template>
-  <section class="flex flex-col items-center px-8 py-16 theme--brand">
-    <BaseHeading class="text-center">Services</BaseHeading>
+  <section class="flex flex-col items-center justify-center px-8 py-16 theme--brand">
+    <BaseHeading class="mb-10 text-center lg:mb-20">Services</BaseHeading>
 
-    <ul class="flex flex-col gap-10 mt-10">
-      <ServiceItem>
+    <ul class="flex flex-col items-start justify-center gap-10 prose lg:gap-8 lg:flex-row lg:flex-nowrap">
+      <ServiceItem class="lg:max-w-xs">
         <template #heading>Hot Stone Therapy</template>
         <template #icon><IconHotStone fill-color="fill-brand-white" /></template>
         <template #description>
@@ -14,7 +14,7 @@
         </template>
       </ServiceItem>
 
-      <ServiceItem>
+      <ServiceItem class="lg:max-w-xs">
         <template #heading>Cold Stone Therapy</template>
         <template #icon><IconColdStone fill-color="fill-brand-white" /></template>
         <template #description>
@@ -25,7 +25,7 @@
         </template>
       </ServiceItem>
 
-      <ServiceItem>
+      <ServiceItem class="lg:max-w-xs">
         <template #heading>Sports Rehabilitation</template>
         <template #icon><IconSports fill-color="fill-brand-white" /></template>
         <template #description>
@@ -36,7 +36,7 @@
         </template>
       </ServiceItem>
 
-      <ServiceItem>
+      <ServiceItem class="lg:max-w-xs">
         <template #heading>Reiki</template>
         <template #icon><IconReiki fill-color="fill-brand-white" /></template>
         <template #description>

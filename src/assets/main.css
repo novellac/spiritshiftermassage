@@ -28,6 +28,7 @@ html {
 
 .prose p {
   @apply max-w-prose;
+  @apply leading-tight;
 }
 
 .prose p:not(:last-of-type) {
